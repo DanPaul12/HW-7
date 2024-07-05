@@ -25,7 +25,12 @@ def styling_reviews(reviews):
             else:
                 styled_reviews.append(word)
     final_reviews = ' '.join(styled_reviews)
-    print(final_reviews)
+    print(f" Your styled reviews are as follows: {final_reviews}")
                 
 
 styling_reviews(reviews)
+
+# for this problem and the second one, I couldn't figure out how to separate words like 
+# "good" from the "." it was next to. i tried looking in the usual resources but didn't see 
+# anything and didn't want to spend too much time if it wasn't important. Please let me
+# know what I'm missing!

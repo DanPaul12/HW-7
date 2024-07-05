@@ -18,4 +18,4 @@ for review in reviews:
             positive_counter += 1
         elif words in negative_words:
             negative_counter += 1
-    print(positive_counter, negative_counter)
+    print (f"The count of positive words in your review is {positive_counter}, and the count of negative words is {negative_counter}")
