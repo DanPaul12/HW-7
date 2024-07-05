@@ -5,9 +5,9 @@ def name_counter():
         firstname_count = len(first_name)
         lastname_count = len(last_name)
         if lastname_count < 2 or firstname_count < 2:
-            print("Not enough letters")
+            print("One or both of your names don't contain enough letters")
         else:
             print(f"Your first name is {firstname_count} letters long and your last name is {lastname_count} letters long")
-            break
+        break
 
 name_counter()
